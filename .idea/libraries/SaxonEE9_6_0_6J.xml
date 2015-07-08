@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SaxonEE9-6-0-6J">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Install/SaxonEE9-6-0-6J/saxon9-icu.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Install/SaxonEE9-6-0-6J/saxon9-sql.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Install/SaxonEE9-6-0-6J/saxon9-unpack.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Install/SaxonEE9-6-0-6J/saxon9ee-test.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Install/SaxonEE9-6-0-6J/saxon9ee.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
