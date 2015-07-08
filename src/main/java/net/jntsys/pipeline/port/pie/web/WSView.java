@@ -1,6 +1,6 @@
-package test.pipeline.port.pie.web;
+package net.jntsys.pipeline.port.pie.web;
 
-import test.pipeline.port.pie.WebView;
+import net.jntsys.pipeline.port.pie.WebView;
 
 /**
  * WebSocket View

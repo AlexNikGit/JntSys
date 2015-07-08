@@ -1,4 +1,4 @@
-package test.pipeline;
+package net.jntsys.pipeline;
 
 /**
  * Created by alex_nik on 03.07.15.

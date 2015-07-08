@@ -1,4 +1,4 @@
-package test;
+package net.jntsys;
 
 import org.springframework.context.ApplicationContextException;
 import org.springframework.core.io.Resource;

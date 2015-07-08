@@ -1,4 +1,4 @@
-package test.pipeline;
+package net.jntsys.pipeline;
 
 /**
  * Основной класс ядра конвейера. ...

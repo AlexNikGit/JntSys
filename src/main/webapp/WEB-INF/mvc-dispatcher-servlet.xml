@@ -9,17 +9,17 @@
                            http://www.springframework.org/schema/mvc
                            http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="com.jntsys"/>
+    <context:component-scan base-package="net.jntsys"/>
 
     <bean class="org.springframework.web.servlet.view.xslt.XsltViewResolver">
-        <property name="viewClass" value="test.XSLTGenView" />
+        <property name="viewClass" value="net.jntsys.XSLTGenView" />
         <property name="viewNames">
             <array>
                 <value>DynGenTest</value>
             </array>
         </property>
     </bean>
-    <bean id="XSLTRes" class="test.XSLTResourceInjection" />
+    <bean id="XSLTRes" class="net.jntsys.XSLTResourceInjection" />
 
     <mvc:annotation-driven /> <!-- необходимо включать при использовании mvc:resources -->
 

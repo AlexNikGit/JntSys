@@ -1,6 +1,6 @@
 package test.pipeline.port.pie.web;
 
-import test.pipeline.port.pie.WebView;
+import net.jntsys.pipeline.port.pie.WebView;
 
 /**
  * Created by alex_nik on 07.07.15.

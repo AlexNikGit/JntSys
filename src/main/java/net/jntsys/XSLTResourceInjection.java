@@ -1,4 +1,4 @@
-package test;
+package net.jntsys;
 
 import org.springframework.context.ResourceLoaderAware;
 import org.springframework.core.io.DefaultResourceLoader;
