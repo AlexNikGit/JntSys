@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="160.0">net.jntsys.view.connector.SJSViewConn</node>
+    <node x="106.0" y="80.0">net.jntsys.view.connector.ViewConnectorImpl</node>
+    <node x="50.25" y="315.0">net.jntsys.pipeline.port.pie.web.WebPCP</node>
+    <node x="97.0" y="395.0">net.jntsys.pipeline.port.pie.web.HTMLPort</node>
+    <node x="5.0" y="235.0">net.jntsys.pipeline.port.PIEPort</node>
+    <node x="98.0" y="235.0">net.jntsys.pipeline.port.pie.WebPort</node>
+    <node x="249.0" y="160.0">net.jntsys.view.connector.HTTPViewConn</node>
+    <node x="118.5" y="0.0">net.jntsys.view.connector.ViewConnector</node>
+    <node x="124.0" y="160.0">net.jntsys.view.connector.WSViewConn</node>
+    <node x="0.0" y="395.0">net.jntsys.pipeline.port.pie.web.CSSPort</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="net.jntsys.view.connector.HTTPViewConn" target="net.jntsys.view.connector.ViewConnectorImpl">
+      <point x="0.0" y="-15.0" />
+      <point x="307.5" y="135.0" />
+      <point x="223.5" y="135.0" />
+      <point x="47.0" y="15.0" />
+    </edge>
+    <edge source="net.jntsys.view.connector.WSViewConn" target="net.jntsys.view.connector.ViewConnectorImpl">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="net.jntsys.pipeline.port.pie.web.WebPCP" target="net.jntsys.pipeline.port.pie.WebPort">
+      <point x="19.75" y="-15.0" />
+      <point x="109.5" y="290.0" />
+      <point x="138.0" y="290.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="net.jntsys.view.connector.SJSViewConn" target="net.jntsys.view.connector.ViewConnectorImpl">
+      <point x="0.0" y="-15.0" />
+      <point x="52.0" y="135.0" />
+      <point x="129.5" y="135.0" />
+      <point x="-47.0" y="15.0" />
+    </edge>
+    <edge source="net.jntsys.pipeline.port.pie.web.CSSPort" target="net.jntsys.pipeline.port.pie.web.WebPCP">
+      <point x="0.0" y="-15.0" />
+      <point x="38.5" y="370.0" />
+      <point x="70.0" y="370.0" />
+      <point x="-19.75" y="15.0" />
+    </edge>
+    <edge source="net.jntsys.view.connector.ViewConnectorImpl" target="net.jntsys.view.connector.ViewConnector">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="net.jntsys.pipeline.port.pie.web.WebPCP" target="net.jntsys.pipeline.port.PIEPort">
+      <point x="-19.75" y="-15.0" />
+      <point x="70.0" y="290.0" />
+      <point x="41.5" y="290.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="net.jntsys.pipeline.port.pie.web.HTMLPort" target="net.jntsys.pipeline.port.pie.web.WebPCP">
+      <point x="0.0" y="-15.0" />
+      <point x="141.0" y="370.0" />
+      <point x="109.5" y="370.0" />
+      <point x="19.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="183.0" y="212.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
