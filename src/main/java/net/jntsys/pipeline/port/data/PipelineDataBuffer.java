@@ -1,4 +1,4 @@
-package net.jntsys.pipeline.data;
+package net.jntsys.pipeline.port.data;
 
 /**
  * Created by alex_nik on 06.07.15.
