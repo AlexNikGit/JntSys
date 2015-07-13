@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * Created by alex_nik on 06.07.15.
  */
-public abstract class XProcHView extends AbstractUrlBasedView implements XProcView {
+public class XProcHView extends AbstractUrlBasedView {
 
     @Override
     protected void renderMergedOutputModel(Map<String, Object> model, HttpServletRequest request, HttpServletResponse response)
